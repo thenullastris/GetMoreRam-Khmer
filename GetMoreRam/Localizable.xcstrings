@@ -1,0 +1,350 @@
+{
+  "sourceLanguage" : "km",
+  "strings" : {
+    "" : {
+
+    },
+    "%@ · %@" : {
+      "localizations" : {
+        "km" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ · %2$@"
+          }
+        }
+      }
+    },
+    "Account" : {
+      "localizations" : {
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "គណនី"
+          }
+        }
+      }
+    },
+    "Add Increased Memory Limit" : {
+      "localizations" : {
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "បន្ថែមដែនកំណត់សតិចងចាំកើនឡើង"
+          }
+        }
+      }
+    },
+    "Anisette Server URL" : {
+      "localizations" : {
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "URL ម៉ាស៊ីនមេ Anisette"
+          }
+        }
+      }
+    },
+    "App IDs" : {
+      "localizations" : {
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "លេខសម្គាល់កម្មវិធី"
+          }
+        }
+      }
+    },
+    "Apple ID" : {
+      "localizations" : {
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apple ID"
+          }
+        }
+      }
+    },
+    "Cancel" : {
+      "localizations" : {
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "បោះបង់"
+          }
+        }
+      }
+    },
+    "Choose a SideStore account JSON file that contains email, password, adiPB, and local_user." : {
+      "localizations" : {
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ជ្រើសរើសឯកសារ JSON គណនី SideStore ដែលមាន email, password, adiPB, និង local_user។"
+          }
+        }
+      }
+    },
+    "Choose Team" : {
+      "localizations" : {
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ជ្រើសរើសក្រុម"
+          }
+        }
+      }
+    },
+    "Clean Up Keychain" : {
+      "localizations" : {
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "សម្អាត Keychain"
+          }
+        }
+      }
+    },
+    "Continue" : {
+      "localizations" : {
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "បន្ត"
+          }
+        }
+      }
+    },
+    "Debugging" : {
+      "localizations" : {
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "កំពុងដំណើរការ"
+          }
+        }
+      }
+    },
+    "Email" : {
+      "localizations" : {
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "អ៊ីមែល"
+          }
+        }
+      }
+    },
+    "Error" : {
+      "localizations" : {
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "កំហុស"
+          }
+        }
+      }
+    },
+    "Free" : {
+      "localizations" : {
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ឥតគិតថ្លៃ"
+          }
+        }
+      }
+    },
+    "If something went wrong during signing in, please try to clean up the keychain, repoen the app and try again. \n \nIf you use SideStore and are already signed in, please also try exporting SideStore Account from SideStore settings and import it here to sign in." : {
+      "localizations" : {
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ប្រសិនបើមានបញ្ហាកើតឡើងអំឡុងពេលចូលគណនី សូមព្យាយាមសម្អាត Keychain បិទហើយបើកកម្មវិធីឡើងវិញ រួចព្យាយាមម្តងទៀត។\n\nប្រសិនបើអ្នកប្រើ SideStore ហើយបានចូលគណនីរួចហើយ សូមព្យាយាមនាំចេញគណនី SideStore ពីការកំណត់ SideStore ហើយនាំចូលនៅទីនេះដើម្បីចូលគណនី។"
+          }
+        }
+      }
+    },
+    "Import SideStore Account" : {
+      "localizations" : {
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "នាំចូលគណនី SideStore"
+          }
+        }
+      }
+    },
+    "Imported %@. Tap \"Sign In\" to continue." : {
+      "localizations" : {
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "បាននាំចូល %@ ។ ចុច \"ចូលគណនី\" ដើម្បីបន្ត។"
+          }
+        }
+      }
+    },
+    "Individual" : {
+      "localizations" : {
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "បុគ្គល"
+          }
+        }
+      }
+    },
+    "local_user should be a base64 encoded 16-byte identifier." : {
+      "localizations" : {
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "local_user គួរតែជាលេខសម្គាល់ដែលបំលែងជា base64 ប្រវែង 16 byte។"
+          }
+        }
+      }
+    },
+    "No file selected." : {
+      "localizations" : {
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "មិនបានជ្រើសរើសឯកសារទេ។"
+          }
+        }
+      }
+    },
+    "Organization" : {
+      "localizations" : {
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "អង្គភាព"
+          }
+        }
+      }
+    },
+    "Password" : {
+      "localizations" : {
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ពាក្យសម្ងាត់"
+          }
+        }
+      }
+    },
+    "Please Login First" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "សូមចូលគណនីមុនសិន"
+          }
+        }
+      }
+    },
+    "Refresh" : {
+      "localizations" : {
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ផ្ទុកឡើងវិញ"
+          }
+        }
+      }
+    },
+    "Server Response" : {
+      "localizations" : {
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ការឆ្លើយតបម៉ាស៊ីនមេ"
+          }
+        }
+      }
+    },
+    "SideStore Account" : {
+      "localizations" : {
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "គណនី SideStore"
+          }
+        }
+      }
+    },
+    "Sign in" : {
+      "localizations" : {
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ចូលគណនី"
+          }
+        }
+      }
+    },
+    "Team ID" : {
+      "localizations" : {
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "លេខសម្គាល់ក្រុម"
+          }
+        }
+      }
+    },
+    "The SideStore account file has an invalid local_user value." : {
+      "localizations" : {
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ឯកសារគណនី SideStore មាន local_user មិនត្រឹមត្រូវ។"
+          }
+        }
+      }
+    },
+    "The SideStore account file is missing %@." : {
+      "localizations" : {
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ឯកសារគណនី SideStore បាត់ %@។"
+          }
+        }
+      }
+    },
+    "Unable to Fetch Team!" : {
+      "localizations" : {
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "មិនអាចទាញយកព័ត៌មានក្រុមបានទេ!"
+          }
+        }
+      }
+    },
+    "Unknown" : {
+      "localizations" : {
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "មិនស្គាល់"
+          }
+        }
+      }
+    },
+    "Verification Code" : {
+      "localizations" : {
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "លេខកូដផ្ទៀងផ្ទាត់"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.3"
+}

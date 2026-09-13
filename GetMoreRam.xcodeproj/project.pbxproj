@@ -119,11 +119,12 @@
 				};
 			};
 			buildConfigurationList = 173496EB2D847E82007994DB /* Build configuration list for PBXProject "GetMoreRam" */;
-			developmentRegion = en;
+			developmentRegion = km;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
+				km,
 			);
 			mainGroup = 173496E72D847E82007994DB;
 			minimizedProjectReferenceProxies = 1;
@@ -220,6 +221,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -276,6 +278,7 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -288,7 +291,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"GetMoreRam/Preview Content\"";
-				DEVELOPMENT_TEAM = 3C3YHUUV75;
+				DEVELOPMENT_TEAM = 53M85BN26X;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = GetMoreRam/Info.plist;
@@ -304,7 +307,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.aigch.getMoreRam;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thenullastris.getMoreRam;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -320,7 +323,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"GetMoreRam/Preview Content\"";
-				DEVELOPMENT_TEAM = 3C3YHUUV75;
+				DEVELOPMENT_TEAM = 53M85BN26X;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = GetMoreRam/Info.plist;
@@ -336,7 +339,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.aigch.getMoreRam;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thenullastris.getMoreRam;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

@@ -29,7 +29,7 @@ class AppIDModel : ObservableObject, Hashable {
     
     func addIncreasedMemory() async throws {
         guard let team = DataManager.shared.model.team, let session = DataManager.shared.model.session else {
-            throw "Please Login First"
+            throw String(localized: "Please Login First")
         }
 
         let cool = try await AppleAPI.shared.updateAppID(appID, capabilities: ["INCREASED_MEMORY_LIMIT"], team: team, session: session)
@@ -44,7 +44,7 @@ class AppIDViewModel : ObservableObject {
     
     func fetchAppIDs() async throws {
         guard let team = DataManager.shared.model.team, let session = DataManager.shared.model.session else {
-            throw "Please Login First"
+            throw String(localized: "Please Login First")
         }
         
         let ids = try await AppleAPI.shared.fetchAppIDsForTeam(team: team, session: session)

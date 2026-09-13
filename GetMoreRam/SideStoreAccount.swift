@@ -53,18 +53,18 @@ enum SideStoreAccountImportError: LocalizedError {
     var errorDescription: String? {
         switch self {
         case .missingRequiredField(let field):
-            return "The SideStore account file is missing \(field)."
+            return String(localized: "The SideStore account file is missing \(field).")
         case .invalidLocalUser:
-            return "The SideStore account file has an invalid local_user value."
+            return String(localized: "The SideStore account file has an invalid local_user value.")
         }
     }
     
     var recoverySuggestion: String? {
         switch self {
         case .missingRequiredField:
-            return "Choose a SideStore account JSON file that contains email, password, adiPB, and local_user."
+            return String(localized: "Choose a SideStore account JSON file that contains email, password, adiPB, and local_user.")
         case .invalidLocalUser:
-            return "local_user should be a base64 encoded 16-byte identifier."
+            return String(localized: "local_user should be a base64 encoded 16-byte identifier.")
         }
     }
 }

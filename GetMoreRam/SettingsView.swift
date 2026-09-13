@@ -252,7 +252,7 @@ struct SettingsView: View {
     func importSideStoreAccount(_ result: Result<[URL], Error>) {
         do {
             guard let url = try result.get().first else {
-                throw "No file selected."
+                throw String(localized: "No file selected.")
             }
             
             let didStartAccessing = url.startAccessingSecurityScopedResource()
@@ -275,7 +275,7 @@ struct SettingsView: View {
             viewModel.teamSelectionShow = false
             email = account.email
             teamId = ""
-            importResultInfo = "Imported \(account.email).\nTap \"Sign In\" to continue."
+            importResultInfo = String(localized: "Imported \(account.email). Tap \"Sign In\" to continue.")
             importResultShow = true
         } catch {
             errorInfo = error.detailedDescription
@@ -306,13 +306,13 @@ struct SettingsView: View {
     func teamTypeDescription(_ type: TeamType) -> String {
         switch type {
         case .free:
-            return "Free"
+            return String(localized: "Free")
         case .individual:
-            return "Individual"
+            return String(localized: "Individual")
         case .organization:
-            return "Organization"
+            return String(localized: "Organization")
         case .unknown:
-            return "Unknown"
+            return String(localized: "Unknown")
         }
     }
     

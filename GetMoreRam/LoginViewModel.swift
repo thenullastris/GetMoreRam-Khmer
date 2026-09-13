@@ -130,9 +130,8 @@ class LoginViewModel: ObservableObject {
 
         let fetchedTeams = try await AppleAPI.shared.fetchTeamsForAccount(account: account, session: session)
         guard !fetchedTeams.isEmpty else {
-            throw "Unable to Fetch Team!"
+            throw String(localized: "Unable to Fetch Team!")
         }
-        
         return fetchedTeams
     }
 }
